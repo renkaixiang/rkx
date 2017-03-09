@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.kuang{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				opacity: 0.5;
+				background: black;
+				display: none;
+			}
+			.kuang p{
+				display: block;
+				width: 300px;
+				height: 150px;
+				background: black;
+				opacity: 0.8;
+				color: blue;
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right:0;
+				margin: auto;
+				text-align: center;
+				line-height: 150px;
+				font-size: 30px;
+			}
+			.box {
+				width: 1300px;
+				height: 300px;
+				margin: auto;
+
+			}
+			
+			.tianjia {
+				width: 1300px;
+				height: 150px;
+				float: left;
+				background: green;
+			}
+			
+			.tianjia input {
+				margin-top: 50px;
+				outline: none;
+				margin-left: 5px;
+			}
+			
+			.button {
+				margin-left: 25px;
+			}
+			
+			.search {
+				float: left;
+				width: 1300px;
+				height: 150px;
+				background: white;
+			}
+			
+			.button-2 {
+				float: right;
+			}
+			
+			.search input {
+				float: right;
+				outline: none;
+			}
+			
+			.libiao {
+				margin: auto;
+				width: 1300px;
+				height: auto;
+				background: linen;
+			}
+
+			.libiao ul {
+				border-bottom: 1px solid #ccc;
+				height: 30px;
+				line-height: 30px;
+				overflow: hidden;
+			}
+			
+			.libiao ul li:first-child {
+				margin-left: 20px;
+			}
+			
+			.libiao li {
+				width: 80px;
+				list-style: none;
+				float: left;
+				margin: 0 60px;
+				text-align: center;
+			}
+		</style>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="kuang">
+			<p>2151313</p>
+			<p>确定</p>
+		</div>
+		<div class="box">
+			<div class="tianjia">
+				<span>电话号</span>:<input type="text" value="" id="dhh"/>
+				<span>班级</span>:<input type="text" value=""  id="bj"/>
+				<span>数学成绩</span>:<input type="text" value="" id="sxcj" />
+				<span>语文成绩</span>:<input type="text" value=""  id="ywcj"/>
+				<span>英语成绩</span>:<input type="text" value=""  id="yycj"/>
+				<button class="button">添加</button>
+			</div>
+			<div class="search">
+				<button class="button-2">搜索</button>
+				<input type="text" name="" id="sousuo" value="" />
+			</div>
+		</div>
+		
+		<div class="libiao">
+			<ul>
+				<li>学号</li>
+				<li>手机号</li>
+				<li>班级</li>
+				<li>语文</li>
+				<li>数学</li>
+				<li>英语</li>
+			</ul>
+			<button class="top">上一页</button>
+			<button class="bottom">下一页</button>
+		</div>
+	</body>
+
+</html>
